@@ -14,14 +14,14 @@ Difference between them :
  objects :                  objects are immutable                                        mutable                                            mutable
  
  
- thread safety :               not thread safe                                 methods are syncronised, so                              not thread safe
+ thread safety :               not thread safe                                 methods are synchronized, so                              not thread safe
                                                                                         thread safe      
  
- equals() :             compares the content of two strings                   compares the refrence/ address                     compares the refrence/ address
+ .equals() :             compares the content of two strings                   compares the reference/ address                     compares the refrence/ address
                         and returns boolean, the method is                    of two strings, as parent class                    of two strings, as parent class
-                            overriden in String class                              ( Object Class )                                       ( Object Class )
+                            overridden in String class                              ( Object Class )                                       ( Object Class )
 
  
- concat() :                 new object is created,                               new object is not created,                        new object is not created,
+ .concat() :                 new object is created,                               new object is not created,                        new object is not created,
                          older object is not affected                             same object is updated                            same object is updated
 
