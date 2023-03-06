@@ -1,0 +1,27 @@
+in java there are 3 ways to use strings : 
+
+1) by using 'String' class
+2) by using 'StringBuffer' class
+3) by using 'StringBuilder' class
+
+Difference between them : 
+                                   String                                              StringBuffer                                     StringBuilder
+ ______________________________________________________________________________________________________________________________________________________________:wq
+ 
+ storage :                objects created are stored in                            stored in heap area                                 stored in heap area
+                         Heap area / String Constant Pool         
+
+ objects :                  objects are immutable                                        mutable                                            mutable
+ 
+ 
+ thread safety :               not thread safe                                 methods are syncronised, so                              not thread safe
+                                                                                        thread safe      
+ 
+ equals() :             compares the content of two strings                   compares the refrence/ address                     compares the refrence/ address
+                        and returns boolean, the method is                    of two strings, as parent class                    of two strings, as parent class
+                            overriden in String class                              ( Object Class )                                       ( Object Class )
+
+ 
+ concat() :                 new object is created,                               new object is not created,                        new object is not created,
+                         older object is not affected                             same object is updated                            same object is updated
+
